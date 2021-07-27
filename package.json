@@ -6,7 +6,7 @@
   "author": "Alberto de Murga <alberto@threkk.com>",
   "scripts": {
     "serve": "serve",
-    "build": "esbuild index.js --bundle --format=esm --outfile=docs/dist.js --minify --sourcemap",
+    "build": "esbuild src/index.js --bundle --format=esm --outfile=docs/dist.js --minify --sourcemap",
     "format": "prettier"
   },
   "license": "MIT",
