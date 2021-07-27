@@ -1,4 +1,4 @@
-import diff from './diff'
+import diff from './diff.js'
 
 const event = new Event('dateChange')
 const result = document.querySelector('#result')

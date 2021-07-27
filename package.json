@@ -1,17 +1,18 @@
 {
   "name": "dead-code",
   "version": "1.0.0",
-  "description": "",
+  "description": "Date comparison tool used as an example for a dead code detection algorithm.",
   "type": "module",
-  "author": "",
+  "author": "Alberto de Murga <alberto@threkk.com>",
   "scripts": {
     "serve": "serve",
-    "build": "esbuild index.js --bundle --format=esm --outfile=dist.js --minify --sourcemap"
+    "build": "esbuild index.js --bundle --format=esm --outfile=docs/dist.js --minify --sourcemap",
+    "format": "prettier"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "bulma": "^0.9.2",
-    "date-fns": "^2.21.3"
+    "date-fns": "^2.21.3",
+    "dayjs": "^1.10.6"
   },
   "devDependencies": {
     "esbuild": "^0.12.0",

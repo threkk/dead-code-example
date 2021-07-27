@@ -1,7 +1,7 @@
 import intervalToDuration from 'date-fns/intervalToDuration'
 import formatDuration from 'date-fns/formatDuration'
 
-function oldDiff(start, end) {
+function basicDiff(start, end) {
   return Math.abs(start - end)
 }
 
