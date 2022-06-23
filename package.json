@@ -2,7 +2,6 @@
   "name": "dead-code",
   "version": "1.0.0",
   "description": "Date comparison tool used as an example for a dead code detection algorithm.",
-  "type": "module",
   "author": "Alberto de Murga <alberto@threkk.com>",
   "scripts": {
     "serve": "serve",
